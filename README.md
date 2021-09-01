@@ -18,3 +18,18 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+5- create recycler adatper to use the recycler view  
+displays items inside the recycler view as it creates the rows and maps the items inside the list to those rows  
+6- create a view holder class to be a view holder for the views 
+```java
+public class RecyclerAdapter {
+    class ViewHolder extends RecyclerView.ViewHolder{
+
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+        }
+    }
+}
+```
+
+
